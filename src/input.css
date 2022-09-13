@@ -9,6 +9,9 @@
         @apply relative;
         @apply text-left;
     }
+    .question:hover{
+        @apply text-soft-red;
+    }
     .faq{
         @apply flex;
         @apply justify-center;
