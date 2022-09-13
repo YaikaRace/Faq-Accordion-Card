@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .question{
+        @apply mt-4;
+        @apply text-v-dark-grayish-blue;
+        @apply relative;
+        @apply text-left;
+    }
+    .faq{
+        @apply flex;
+        @apply justify-center;
+        @apply flex-col;
+    }
+    .answer{
+        @apply text-[0px];
+        @apply h-0;
+        @apply mb-4;
+    }
+    hr{
+        @apply text-light-grayish-blue;
+    }
+}

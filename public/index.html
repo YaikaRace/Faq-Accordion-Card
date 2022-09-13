@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png" />
+		<title>Frontend Mentor | FAQ Accordion Card</title>
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="css/styles.css" />
+		<script
+			defer
+			src="js/main.js"></script>
+	</head>
+	<body
+		class="w-screen h-screen font-kumbh bg-gradient-to-b from-bg-violet to-bg-blue bg-no-repeat text-xs flex justify-center items-center text-dark-grayish-blue">
+		<main
+			class="bg-white w-[90%] max-w-[337.5px] min-w-[337.5px] mx-auto relative p-6 rounded-2xl md:w-[60%] md:max-w-[864px] md:min-w-[727.5px] md:grid md:grid-cols-2 md:p-0 shadow-xl shadow-v-desatured-blue/30">
+			<div data-id="images">
+				<div
+					data-id="img-mobile"
+					class="w-[289.5px] h-full relative min-w-0 md:hidden">
+					<img
+						src="images/illustration-woman-online-mobile.svg"
+						alt="Illustration woman online"
+						class="absolute -top-36 ml-auto w-full md:hidden" />
+					<div class="flex justify-center">
+						<img
+							src="images/bg-pattern-mobile.svg"
+							alt="Background Pattern"
+							class="mb-2 md:hidden" />
+					</div>
+				</div>
+				<img
+					src="images/illustration-box-desktop.svg"
+					alt="box"
+					class="absolute z-[3] top-32 -left-24 hidden md:block" />
+				<div
+					class="w-[864px] min-w-[727.5px] h-full relative overflow-hidden hidden md:block">
+					<img
+						src="images/illustration-woman-online-desktop.svg"
+						alt="Illustration woman online"
+						class="absolute hidden -left-20 md:block z-[2]" />
+					<img
+						src="images/bg-pattern-desktop.svg"
+						alt="Background Pattern"
+						class="hidden absolute -left-96 -top-60 w-[770px] md:block" />
+				</div>
+			</div>
+			<article class="md:p-10">
+				<h1
+					class="font-bold text-4xl text-center mb-4 text-v-desatured-blue md:text-left">
+					FAQ
+				</h1>
+				<div
+					data-id="faq"
+					class="faq">
+					<button
+						data-id="question"
+						class="question">
+						How many team members can I invite?
+						<img
+							src="images/icon-arrow-down.svg"
+							alt="arrow"
+							class="ml-auto bottom-0 top-0 right-0 absolute"
+							data-id="arrow" />
+					</button>
+					<p
+						data-id="answer"
+						class="answer">
+						You can invite up to 2 additional users on the Free plan. There is
+						no limit on team members for the Premium plan.
+					</p>
+				</div>
+				<hr />
+				<div
+					data-id="faq"
+					class="faq">
+					<button
+						data-id="question"
+						class="question font-bold text-v-desatured-blue">
+						What is the maximum file upload size?
+						<img
+							src="images/icon-arrow-down.svg"
+							alt="arrow"
+							class="ml-auto bottom-0 top-0 right-0 absolute animate-arrow-rotation"
+							data-id="arrow" />
+					</button>
+					<p
+						data-id="answer"
+						class="answer text-xs h-fit mt-2 max-w-[289.5px]">
+						No more than 2GB. All files in your account must fit your allotted
+						storage space.
+					</p>
+				</div>
+				<hr />
+				<div
+					data-id="faq"
+					class="faq">
+					<button
+						data-id="question"
+						class="question">
+						How do I reset my password?
+						<img
+							src="images/icon-arrow-down.svg"
+							alt="arrow"
+							class="ml-auto bottom-0 top-0 right-0 absolute"
+							data-id="arrow" />
+					</button>
+					<p
+						data-id="answer"
+						class="answer">
+						Click “Forgot password” from the login page or “Change password”
+						from your profile page. A reset link will be emailed to you.
+					</p>
+				</div>
+				<hr />
+				<div
+					data-id="faq"
+					class="faq">
+					<button
+						data-id="question"
+						class="question">
+						Can I cancel my subscription?
+						<img
+							src="images/icon-arrow-down.svg"
+							alt="arrow"
+							class="ml-auto bottom-0 top-0 right-0 absolute"
+							data-id="arrow" />
+					</button>
+					<p
+						data-id="answer"
+						class="answer">
+						Yes! Send us a message and we’ll process your request no questions
+						asked.
+					</p>
+				</div>
+				<hr />
+				<div
+					data-id="faq"
+					class="faq">
+					<button
+						data-id="question"
+						class="question">
+						Do you provide additional support?
+						<img
+							src="images/icon-arrow-down.svg"
+							alt="arrow"
+							class="ml-auto bottom-0 top-0 right-0 absolute"
+							data-id="arrow" />
+					</button>
+					<p
+						data-id="answer"
+						class="answer">
+						Chat and email support is available 24/7. Phone lines are open
+						during normal business hours.
+					</p>
+				</div>
+			</article>
+			<div
+				class="text-center text-[11px] text-v-desatured-blue absolute origin-center bottom-0 right-0 left-0">
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					class="text-soft-red"
+					>Frontend Mentor</a
+				>. Coded by
+				<a
+					href="https://www.frontendmentor.io/profile/yaikarace"
+					target="_blank"
+					class="text-soft-red"
+					>Yaika Race</a
+				>.
+			</div>
+		</main>
+	</body>
+</html>
